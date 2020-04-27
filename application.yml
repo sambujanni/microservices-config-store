@@ -6,8 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      hbm2ddl:
-        auto: update
+      ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQL95Dialect
   
   
