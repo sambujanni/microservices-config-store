@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: postgresql://localhost:5432/rentDB?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/rentDB?createDatabaseIfNotExist=true
     username: postgres
     password: password
     driver-class-name: org.postgresql.Driver
